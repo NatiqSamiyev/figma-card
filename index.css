@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 231px 85px 131px 84px;
+}
+
+.container h1 {
+  margin-bottom: 95px;
+  color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container .card {
+  margin-right: 37px;
+  margin-bottom: 41px;
+  width: 399px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-container .card img {
+  width: 399px;
+  height: 160px;
+}
+
+.card-container .card div {
+  padding: 11px 0 23px 19px;
+}
+
+.card-container .card h2 {
+  margin-bottom: 32px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.card-container .card p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+/* tablet style */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 150px 49px 52px 48.65px;
+    background-color: limegreen;
+  }
+
+  .container h1 {
+    margin-bottom: 55px;
+    font-size: 32px;
+  }
+
+  .card-container .card {
+    margin-right: 21px;
+    margin-bottom: 23px;
+    width: 231px;
+    border-radius: 17px;
+    box-shadow: 0.5791667103767395px 0.5791667103767395px 8.6875px 0px
+      rgba(0, 0, 0, 0.25);
+  }
+
+  .card-container .card img {
+    width: 231.088px;
+    height: 92.667px;
+  }
+
+  .card-container .card div {
+    padding: 6px 0 13px 11px;
+  }
+
+  .card-container .card h2 {
+    margin-bottom: 18px;
+    font-size: 17px;
+  }
+
+  .card-container .card p {
+    font-size: 14px;
+  }
+}
+
+/* mobile style */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 70px 0px 89px 34px;
+    background-color: rgb(112, 93, 89);
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .container h1 {
+    margin-bottom: 36px;
+    font-size: 26px;
+  }
+
+  .card-container .card {
+    margin-bottom: 24px;
+    width: 185.923px;
+    height: 152.839px;
+    border-radius: 13.979px;
+    background: #fff;
+    box-shadow: 0.46597224473953247px 0.46597224473953247px 6.9895830154418945px
+      0px rgba(0, 0, 0, 0.25);
+  }
+
+  .card-container .card img {
+    width: 185.923px;
+    height: 74.556px;
+  }
+
+  .card-container .card div {
+    padding: 5.13px 0 10.72px 8.85px;
+  }
+
+  .card-container .card h2 {
+    margin-bottom: 14.91px;
+    font-size: 14px;
+  }
+
+  .card-container .card p {
+    font-size: 12px;
+  }
+}
